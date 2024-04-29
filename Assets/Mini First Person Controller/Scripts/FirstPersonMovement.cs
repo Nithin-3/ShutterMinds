@@ -44,6 +44,6 @@ public class FirstPersonMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Hello");
+        Debug.Log(collision.gameObject.name);
     }
 }
