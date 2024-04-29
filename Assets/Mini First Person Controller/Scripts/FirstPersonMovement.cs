@@ -21,6 +21,7 @@ public class FirstPersonMovement : MonoBehaviour
     {
         // Get the rigidbody on this.
         rigidbody = GetComponent<Rigidbody>();
+        rigidbody.AddForce(transform.up * 250f);
     }
 
     void FixedUpdate()
