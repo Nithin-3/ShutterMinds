@@ -70,7 +70,6 @@ namespace StarterAssets
 #endif
 		private CharacterController _controller;
 		private StarterAssetsInputs _input;
-		private GameObject _mainCamera;
 
 		private const float _threshold = 0.01f;
 
@@ -89,10 +88,7 @@ namespace StarterAssets
 		private void Awake()
 		{
 			// get a reference to our main camera
-			if (_mainCamera == null)
-			{
-				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
-			}
+			
 		}
 
 		private void Start()
@@ -120,6 +116,7 @@ namespace StarterAssets
 		private void LateUpdate()
 		{
 			CameraRotation();
+            
 		}
 
 		private void GroundedCheck()
@@ -132,7 +129,7 @@ namespace StarterAssets
 		private void CameraRotation()
 		{
 			// if there is an input
-			if (_input.look.sqrMagnitude >= _threshold)
+			if (_input.look.sqrMagnitude >= _threshold && Time.timeScale != 0 )
 			{
 				//Don't multiply mouse input by Time.deltaTime
 				float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
@@ -148,6 +145,7 @@ namespace StarterAssets
 
 				// rotate the player left and right
 				transform.Rotate(Vector3.up * _rotationVelocity);
+
 			}
 		}
 
