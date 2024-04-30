@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class collect : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    [SerializeField] GameObject sprit;
+    void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) {
+            sprit.SetActive(true);
             if(Input.GetKeyDown(KeyCode.E))
             {
-
+                other.GetComponent<FirstPersonMovement>().collect(gameObject.name);
             }
         }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        sprit.SetActive(false);
+
     }
 }
