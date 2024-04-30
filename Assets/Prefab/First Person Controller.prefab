@@ -807,6 +807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightobj: {fileID: 6435696271787890602}
+  invoke: 1
 --- !u!1 &5212752726228329243
 GameObject:
   m_ObjectHideFlags: 0
