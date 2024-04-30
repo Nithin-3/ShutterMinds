@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class events : MonoBehaviour
 {
-    public void TrigerPausePlay(bool pause)
+    public static void TrigerPausePlay(bool pause)
     {
         Time.timeScale = pause ? 0 : 1.0f ;
     }

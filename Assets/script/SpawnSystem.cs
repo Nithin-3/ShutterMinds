@@ -25,5 +25,6 @@ public class SpawnSystem : MonoBehaviour
             Destroy(jumpTxt);
             Destroy(swnManager);
         }
+        
     }
 }
