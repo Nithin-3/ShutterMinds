@@ -28,33 +28,18 @@ public class enemyscript : MonoBehaviour
         }
         if (player != null)
         {
-            agent.destination = player.transform.position;
             Debug.Log(Vector3.Distance(transform.position, player.transform.position));
            
             if (Vector3.Distance(transform.position, player.transform.position) < 10)
             {
-                transform.LookAt(player.transform.position);
+                animator.SetBool("isRun",true);
+                agent.destination = player.transform.position;
+            }
+            else
+            {
+                animator.SetBool("isRun", false);
             }
             
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Debug.Log("GHDGJ");
-            isEnter = true;
-            animator.SetBool("isRun", true);
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            isEnter = false;
-            animator.SetBool("isRun", false);
         }
     }
 }
