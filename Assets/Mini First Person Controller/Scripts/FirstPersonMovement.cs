@@ -12,6 +12,8 @@ public class FirstPersonMovement : MonoBehaviour
     public float runSpeed = 3.3f;
     public KeyCode runningKey = KeyCode.LeftShift;
     Rigidbody rigidbody1;
+
+    GameObject pause;
     /// <summary> Functions to override movement speed. Will use the last added override. </summary>
     public List<System.Func<float>> speedOverrides = new List<System.Func<float>>();
 
@@ -19,16 +21,32 @@ public class FirstPersonMovement : MonoBehaviour
 
     void Awake()
     {
+        
         speed = 2f;
         runSpeed = 3.3f;
         // Get the rigidbody on this.
         rigidbody1 = GetComponent<Rigidbody>();
         rigidbody1.AddForce(transform.up * 40f);
     }
+    void Start()
+    {
+        pause = GameObject.FindGameObjectWithTag("pause");
+        pause.GetComponent<CanvasGroup>().alpha = 1.0f;
+        pause.gameObject.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    private void Update()
+    {
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            events.TrigerPausePlay(Time.timeScale != 0);
+            pause.gameObject.SetActive(Time.timeScale == 0);
+        }
+
+    }
     void FixedUpdate()
     {
-        Cursor.lockState = CursorLockMode.None;
         // Update IsRunning from input.
         IsRunning = canRun && Input.GetKey(runningKey);
 
