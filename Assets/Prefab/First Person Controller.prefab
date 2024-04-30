@@ -576,7 +576,7 @@ GameObject:
   - component: {fileID: 6020019227994272655}
   m_Layer: 0
   m_Name: First Person Controller
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -807,6 +807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightobj: {fileID: 6435696271787890602}
+  invoke: 1
 --- !u!1 &5212752726228329243
 GameObject:
   m_ObjectHideFlags: 0
