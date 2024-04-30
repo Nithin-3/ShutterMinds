@@ -6,6 +6,9 @@ public class LightEnim : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Hello");
+        if (other.gameObject.CompareTag("Player"))
+        { 
+            Destroy(other.gameObject);
+        }
     }
 }
