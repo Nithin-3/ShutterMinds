@@ -63,7 +63,10 @@ public class FirstPersonMovement : MonoBehaviour
         
         rigidbody1.velocity = transform.rotation * new Vector3(targetVelocity.x, rigidbody1.velocity.y, targetVelocity.y);
     }
-
+    public void collect(string name)
+    {
+        GameObject.Find(name).GetComponent<CanvasGroup>().alpha = 1f;
+    }
     private void OnCollisionEnter(Collision collision)
     {
         
