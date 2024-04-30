@@ -31,8 +31,6 @@ public class FirstPersonMovement : MonoBehaviour
     void Start()
     {
         pause = GameObject.FindGameObjectWithTag("pause");
-        pause.GetComponent<CanvasGroup>().alpha = 1.0f;
-        pause.gameObject.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
     }
     private void Update()
@@ -40,8 +38,9 @@ public class FirstPersonMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            pause.GetComponent<AudioSource>().Play();
             events.TrigerPausePlay(Time.timeScale != 0);
-            pause.gameObject.SetActive(Time.timeScale == 0);
+            pause.GetComponent<CanvasGroup>().alpha = Time.timeScale == 0 ? 1.0f : 0f ;
         }
 
     }

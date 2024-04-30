@@ -491,6 +491,7 @@ GameObject:
   - component: {fileID: 1904231235}
   - component: {fileID: 1904231234}
   - component: {fileID: 1904231236}
+  - component: {fileID: 1904231237}
   m_Layer: 5
   m_Name: RawImage
   m_TagString: Untagged
@@ -588,6 +589,18 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!114 &1904231237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904231232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b6d7739cdf4b6b469364443ffbea7d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
