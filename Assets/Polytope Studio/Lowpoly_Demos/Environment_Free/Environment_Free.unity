@@ -123,8 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &356599023
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,7 +327,6 @@ RectTransform:
   m_AnchoredPosition: {x: -54, y: -21}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
->>>>>>> 8b13b0e0bd148d402051ee3f8abf98b1ca88347a
 --- !u!1 &786565276
 GameObject:
   m_ObjectHideFlags: 0
