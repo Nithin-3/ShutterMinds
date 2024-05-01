@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FirstPersonMovement : MonoBehaviour
 {
@@ -37,7 +38,7 @@ public class FirstPersonMovement : MonoBehaviour
     {
         if(find <= 0)
         {
-            Debug.Log("game finish");
+            SceneManager.LoadScene(3);
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))
