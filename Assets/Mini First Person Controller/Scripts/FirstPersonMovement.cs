@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class FirstPersonMovement : MonoBehaviour
 {
     public float speed = 2f;
+    public float health;
     private int find = 6;
     [Header("Running")]
     public bool canRun = true;
@@ -22,7 +23,7 @@ public class FirstPersonMovement : MonoBehaviour
 
     void Awake()
     {
-        
+        health = 4;
         speed = 2f;
         runSpeed = 3.3f;
         // Get the rigidbody on this.
@@ -51,6 +52,12 @@ public class FirstPersonMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
+
+        if(health <= 0)
+        {
+            events.gameover();
+        }
+
         // Update IsRunning from input.
         IsRunning = canRun && Input.GetKey(runningKey);
 
@@ -75,7 +82,11 @@ public class FirstPersonMovement : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        
-        Debug.Log(collision.gameObject.name);
+
+        if (collision.gameObject.CompareTag("enemy"))
+        {
+            health--;
+            Debug.Log(health);
+        }
     }
 }
