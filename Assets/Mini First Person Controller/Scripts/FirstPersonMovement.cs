@@ -33,7 +33,7 @@ public class FirstPersonMovement : MonoBehaviour
     void Start()
     {
         pause = GameObject.FindGameObjectWithTag("pause");
-        Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.lockState = CursorLockMode.Locked;
     }
     private void Update()
     {
