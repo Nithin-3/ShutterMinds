@@ -28,7 +28,7 @@ public class enemyscript : MonoBehaviour
         }
         if (player != null)
         {
-            Debug.Log(Vector3.Distance(transform.position, player.transform.position));
+            //Debug.Log(Vector3.Distance(transform.position, player.transform.position));
            
             if (Vector3.Distance(transform.position, player.transform.position) < 10)
             {
