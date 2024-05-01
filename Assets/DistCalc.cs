@@ -25,6 +25,7 @@ public class DistCalc : MonoBehaviour
     {
         try
         {
+            gameObjects = GameObject.FindGameObjectsWithTag("bodyParts");
             player1 = GameObject.Find("Player(Clone)");
 
         }
@@ -35,14 +36,14 @@ public class DistCalc : MonoBehaviour
 
         if(player1 != null)
         {
-            distance1 = Vector3.Distance(player1.transform.position, leg1.transform.position);
-            distance2 = Vector3.Distance(player1.transform.position, leg2.transform.position);
-            distance3 = Vector3.Distance(player1.transform.position, hand1.transform.position);
-            distance4 = Vector3.Distance(player1.transform.position, hand2.transform.position);
-            distance5 = Vector3.Distance(player1.transform.position, body.transform.position);
-            distance6 = Vector3.Distance(player1.transform.position, head.transform.position);
+            int index = 0;
+            foreach(GameObject go in gameObjects)
+            {
+                distance[index] = Vector3.Distance(player1.transform.position, go.transform.position);
+                index++;
+            }
 
-            float smalldist = Mathf.Min(distance1, distance2, distance3, distance4, distance5, distance6);
+            float smalldist = Mathf.Min(distance);
 
             distanceTxt.text = "BodyPart Distance " + smalldist;
         }
