@@ -11,6 +11,7 @@ public class events : MonoBehaviour
     }
     public void play(int val)
     {
+        TrigerPausePlay(false);
         SceneManager.LoadScene(val);
     }
     public void quit()
