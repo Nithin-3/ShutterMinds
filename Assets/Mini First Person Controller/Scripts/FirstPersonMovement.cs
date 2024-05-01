@@ -5,7 +5,7 @@ using UnityEngine;
 public class FirstPersonMovement : MonoBehaviour
 {
     public float speed = 2f;
-
+    private int find = 6;
     [Header("Running")]
     public bool canRun = true;
     public bool IsRunning { get; private set; }
@@ -35,6 +35,10 @@ public class FirstPersonMovement : MonoBehaviour
     }
     private void Update()
     {
+        if(find <= 0)
+        {
+            Debug.Log("game finish");
+        }
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -66,6 +70,7 @@ public class FirstPersonMovement : MonoBehaviour
     public void collect(string name)
     {
         GameObject.Find(name+"-1").GetComponent<CanvasGroup>().alpha = 1f;
+        find--;
     }
     private void OnCollisionEnter(Collision collision)
     {
