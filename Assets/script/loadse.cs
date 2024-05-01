@@ -19,7 +19,7 @@ public class loadse : MonoBehaviour
     {
         if ((player.frame) > 0 && (player.isPlaying == false))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex==1?2:0);
 
         }
 
