@@ -1587,6 +1587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doctor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
       propertyPath: m_Controller
       value: 
@@ -4321,7 +4325,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8602579892516790683, guid: bd27a21367e13f14ca9e642760d7ba5f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 89.59582
+      value: 89.592
       objectReference: {fileID: 0}
     - target: {fileID: 8602579892516790683, guid: bd27a21367e13f14ca9e642760d7ba5f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4362,6 +4366,10 @@ PrefabInstance:
     - target: {fileID: 8946770619392981793, guid: bd27a21367e13f14ca9e642760d7ba5f, type: 3}
       propertyPath: m_Name
       value: Doutor (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946770619392981793, guid: bd27a21367e13f14ca9e642760d7ba5f, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4542,6 +4550,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f0bb459dc3d2801419add6c9da485607, type: 3}
       propertyPath: m_Name
       value: Doutor (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f0bb459dc3d2801419add6c9da485607, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f0bb459dc3d2801419add6c9da485607, type: 3}
       propertyPath: m_Controller
@@ -6145,6 +6157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doctor
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
       propertyPath: m_Controller
       value: 
@@ -6477,6 +6493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vanguard By T. Choonyung
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 802d4b029b955e842b0b0390581b61cd, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 802d4b029b955e842b0b0390581b61cd, type: 3}
       propertyPath: m_Controller
       value: 
@@ -6770,6 +6790,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
       propertyPath: m_Name
       value: Doctor (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
       propertyPath: m_Controller
@@ -8715,6 +8739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doutor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f0bb459dc3d2801419add6c9da485607, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f0bb459dc3d2801419add6c9da485607, type: 3}
       propertyPath: m_Controller
       value: 
@@ -9830,6 +9858,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
       propertyPath: m_Name
       value: Doctor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
       propertyPath: m_Controller
@@ -11615,6 +11647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doctor (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 2cfb0c27c698e8d48afda7b689aeb2da, type: 3}
       propertyPath: m_Controller
       value: 
@@ -11894,6 +11930,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 802d4b029b955e842b0b0390581b61cd, type: 3}
       propertyPath: m_Name
       value: Vanguard By T. Choonyung (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 802d4b029b955e842b0b0390581b61cd, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 802d4b029b955e842b0b0390581b61cd, type: 3}
       propertyPath: m_Controller
@@ -14638,6 +14678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ch36_nonPBR 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 750ee4b8c75dc0d4bb05ef768d274e4b, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 750ee4b8c75dc0d4bb05ef768d274e4b, type: 3}
       propertyPath: m_Controller
       value: 
@@ -14788,6 +14832,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f0bb459dc3d2801419add6c9da485607, type: 3}
       propertyPath: m_Name
       value: Doutor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f0bb459dc3d2801419add6c9da485607, type: 3}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f0bb459dc3d2801419add6c9da485607, type: 3}
       propertyPath: m_Controller
@@ -15868,6 +15916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doutor
       objectReference: {fileID: 0}
+    - target: {fileID: 8946770619392981793, guid: bd27a21367e13f14ca9e642760d7ba5f, type: 3}
+      propertyPath: m_TagString
+      value: enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16249,4 +16301,3 @@ SceneRoots:
   - {fileID: 1823814183}
   - {fileID: 362828558}
   - {fileID: 313935997}
-  - {fileID: 2052007238}
