@@ -12539,6 +12539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: head
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7e050a9be90c4af41a19e46c0021bba1, type: 3}
+      propertyPath: m_TagString
+      value: bodyParts
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -14160,6 +14164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: leftleg
       objectReference: {fileID: 0}
+    - target: {fileID: 6427811133795117791, guid: e9b235c25cd5d104ab4caa94e9e62d12, type: 3}
+      propertyPath: m_TagString
+      value: bodyParts
+      objectReference: {fileID: 0}
     - target: {fileID: 7842063753073306375, guid: e9b235c25cd5d104ab4caa94e9e62d12, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -14231,6 +14239,10 @@ PrefabInstance:
     - target: {fileID: 25418668480640466, guid: ed8f17c7ba824a746a8f802bff0e30d2, type: 3}
       propertyPath: m_Name
       value: righthand
+      objectReference: {fileID: 0}
+    - target: {fileID: 25418668480640466, guid: ed8f17c7ba824a746a8f802bff0e30d2, type: 3}
+      propertyPath: m_TagString
+      value: bodyParts
       objectReference: {fileID: 0}
     - target: {fileID: 797592917782032232, guid: ed8f17c7ba824a746a8f802bff0e30d2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14379,6 +14391,10 @@ PrefabInstance:
     - target: {fileID: 2062830952696333559, guid: 461e53da4bfe9964d8f137fe31a4a65d, type: 3}
       propertyPath: m_Name
       value: rightleg
+      objectReference: {fileID: 0}
+    - target: {fileID: 2062830952696333559, guid: 461e53da4bfe9964d8f137fe31a4a65d, type: 3}
+      propertyPath: m_TagString
+      value: bodyParts
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14953,6 +14969,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: lefthand
       objectReference: {fileID: 0}
+    - target: {fileID: 6660609259975311121, guid: e515e947582fbb94f87c9f4a1ca70890, type: 3}
+      propertyPath: m_TagString
+      value: bodyParts
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -15117,6 +15137,10 @@ PrefabInstance:
     - target: {fileID: 7935213483495996585, guid: b3f4d6d99e31c754c8803cfd4e68667c, type: 3}
       propertyPath: m_Name
       value: body
+      objectReference: {fileID: 0}
+    - target: {fileID: 7935213483495996585, guid: b3f4d6d99e31c754c8803cfd4e68667c, type: 3}
+      propertyPath: m_TagString
+      value: bodyParts
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
