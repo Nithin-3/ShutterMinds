@@ -9,12 +9,17 @@ public class events : MonoBehaviour
     {
         Time.timeScale = pause ? 0 : 1.0f ;
     }
-    public void play()
+    public void play(int val)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(val);
     }
     public void quit()
     {
         Application.Quit();
+    }
+    public static void gameover()
+    {
+        events.TrigerPausePlay(true);
+        GameObject.FindGameObjectWithTag("over").GetComponent<CanvasGroup>().alpha = 1.0f;
     }
 }
