@@ -9,31 +9,15 @@ public class DistCalc : MonoBehaviour
     public TMP_Text distanceTxt;
 
     //private NavMeshAgent agent1;
-    public float distance1;
-    public float distance2;
-    public float distance3;
-    public float distance4;
-    public float distance5;
-    public float distance6;
+    public float[] distance;
 
     private GameObject player1;
 
-    private GameObject leg1;
-    private GameObject leg2;
-    private GameObject hand1;
-    private GameObject hand2;
-    private GameObject body;
-    private GameObject head;
+    private GameObject[] gameObjects;
     // Start is called before the first frame update
     void Start()
     {
-        
-        leg1 = GameObject.Find("leftleg");
-        leg2 = GameObject.Find("rightleg");
-        hand1 = GameObject.Find("lefthand");
-        hand2 = GameObject.Find("righthand");
-        body = GameObject.Find("body");
-        head = GameObject.Find("head");
+        gameObjects =  GameObject.FindGameObjectsWithTag("bodyParts");
     }
 
     // Update is called once per frame
