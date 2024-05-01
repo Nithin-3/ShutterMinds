@@ -65,7 +65,7 @@ public class FirstPersonMovement : MonoBehaviour
     }
     public void collect(string name)
     {
-        GameObject.Find(name).GetComponent<CanvasGroup>().alpha = 1f;
+        GameObject.Find(name+"-1").GetComponent<CanvasGroup>().alpha = 1f;
     }
     private void OnCollisionEnter(Collision collision)
     {
