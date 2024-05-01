@@ -11885,7 +11885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6427811133795117791, guid: e9b235c25cd5d104ab4caa94e9e62d12, type: 3}
       propertyPath: m_Name
-      value: leg1
+      value: lefthand
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11902,7 +11902,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 25418668480640466, guid: ed8f17c7ba824a746a8f802bff0e30d2, type: 3}
       propertyPath: m_Name
-      value: hand2
+      value: righthand
       objectReference: {fileID: 0}
     - target: {fileID: 797592917782032232, guid: ed8f17c7ba824a746a8f802bff0e30d2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11999,7 +11999,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2062830952696333559, guid: 461e53da4bfe9964d8f137fe31a4a65d, type: 3}
       propertyPath: m_Name
-      value: leg2
+      value: righthand
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12452,7 +12452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6660609259975311121, guid: e515e947582fbb94f87c9f4a1ca70890, type: 3}
       propertyPath: m_Name
-      value: hand1
+      value: lefthand
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12716,3 +12716,4 @@ SceneRoots:
   - {fileID: 1068982936}
   - {fileID: 1642493708}
   - {fileID: 1134675442}
+  - {fileID: 1850392141}
