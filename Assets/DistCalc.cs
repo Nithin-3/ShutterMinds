@@ -27,10 +27,10 @@ public class DistCalc : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {;
-        leg1 = GameObject.Find("leg1");
-        leg2 = GameObject.Find("leg2");
-        hand1 = GameObject.Find("hand1");
-        hand2 = GameObject.Find("hand2");
+        leg1 = GameObject.Find("leftleg");
+        leg2 = GameObject.Find("rightleg");
+        hand1 = GameObject.Find("lefthand");
+        hand2 = GameObject.Find("righthand");
         body = GameObject.Find("body");
         head = GameObject.Find("head");
 

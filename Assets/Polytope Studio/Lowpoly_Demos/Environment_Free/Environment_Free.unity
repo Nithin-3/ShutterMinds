@@ -7201,6 +7201,7 @@ GameObject:
   - component: {fileID: 1359274211}
   - component: {fileID: 1359274210}
   - component: {fileID: 1359274209}
+  - component: {fileID: 1359274214}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -7306,6 +7307,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1359274214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359274208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a130ab6028b2bf340a1bc877dce4cd50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance1: 0
+  distance2: 0
+  distance3: 0
+  distance4: 0
+  distance5: 0
+  distance6: 0
 --- !u!4 &1361778988 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 673ebb9763ff272438b118edc9e4ab26, type: 3}
@@ -11885,7 +11904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6427811133795117791, guid: e9b235c25cd5d104ab4caa94e9e62d12, type: 3}
       propertyPath: m_Name
-      value: lefthand
+      value: leftleg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11999,7 +12018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2062830952696333559, guid: 461e53da4bfe9964d8f137fe31a4a65d, type: 3}
       propertyPath: m_Name
-      value: righthand
+      value: rightleg
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
