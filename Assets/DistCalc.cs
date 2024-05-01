@@ -18,6 +18,7 @@ public class DistCalc : MonoBehaviour
     void Start()
     {
         gameObjects =  GameObject.FindGameObjectsWithTag("bodyParts");
+        distance = new float[gameObjects.Length];
     }
 
     // Update is called once per frame

@@ -10,6 +10,7 @@ public class enemyscript : MonoBehaviour
     private Animator animator;
     private NavMeshAgent agent;
     public static bool isEnter = false;
+    public bool isCollide = false;
     void Awake()
     {
         animator = enem1.GetComponent<Animator>();
@@ -38,7 +39,25 @@ public class enemyscript : MonoBehaviour
             {
                 animator.SetBool("isRun", false);
             }
+
+            if(isCollide == true)
+            {
+                animator.SetBool("isCollide", true);
+            }
+
+            else
+            {
+                animator.SetBool("isCollide", false);
+            }
             
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isCollide = true;
         }
     }
 }
