@@ -11,7 +11,8 @@ public class events : MonoBehaviour
     }
     public void play(int val)
     {
-        TrigerPausePlay(false);
+        Time.timeScale =  1.0f ;
+
         SceneManager.LoadScene(val);
     }
     public void quit()
